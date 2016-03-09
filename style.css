@@ -1,0 +1,61 @@
+body {
+  background: #a51c30;
+  background-size: 100%;
+  font-family: "Anziano Pro", serif;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+h1 {
+  color: #FFF;
+  clear: left;
+  font-size: 3em;
+  font-weight: normal;
+  margin: 20px 0px 20px 180px;
+}
+
+img {
+  float: right;
+  margin-top: 8em;
+  margin-right: 6em;
+}
+
+#countdowndiv {
+  background-color: black;
+  border: 5px solid white;
+  overflow: auto;
+  margin: 10em 3em 3em 3em;
+  padding: 2em 0em 2em 0em;
+}
+
+#clockdiv {
+  clear: left;
+  color: #fff;
+  display: inline-block;
+  font-family: "Benton Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 100;
+  margin-left: 180px;
+  text-align: center;
+}
+
+#clockdiv > div {
+  border-radius: 3px;
+  background-color: #4e84c4;
+  display: inline-block;
+  padding: 10px;
+}
+
+#clockdiv div > span {
+  border-radius: 3px;
+  background-color: #293352;
+  display: inline-block;
+  padding: 15px;
+}
+
+.smalltext {
+  font-size: 16px;
+  padding-top: 5px;
+}
